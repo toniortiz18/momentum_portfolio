@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Antonio O.R.</title>
+<link>https://toniortiz18.github.io/portfolio/bitsandbobs/</link>
+<atom:link href="https://toniortiz18.github.io/portfolio/bitsandbobs/index.xml" rel="self" type="application/rss+xml"/>
+<description>Antonio Ortiz Romero</description>
+<image>
+<url>https://toniortiz18.github.io/portfolio/images/profile.png</url>
+<title>Antonio O.R.</title>
+<link>https://toniortiz18.github.io/portfolio/bitsandbobs/</link>
+</image>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Mon, 17 Feb 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Seeking Deep Thoughts</title>
+  <link>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-02-18-A.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I started reading the Deepseek Math paper, after recently finishing the R1 paper. The following thoughts started coming to mind:</p>
+<ul>
+<li>R1 is successful simply because of the training process</li>
+<li>Deepseek Math is worked really well because of data quality</li>
+<li>GRPO is used only to reduce memory usage (still reading the Deepseek Math paper; I could be wrong)</li>
+</ul>
+<p>Takeaway is that a lot can be done by simply flipping and rearranging all the existing levers and switches we already have.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Papers</category>
+  <category>LLM</category>
+  <category>NLP</category>
+  <category>RL</category>
+  <category>Thoughts</category>
+  <guid>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-02-18-A.html</guid>
+  <pubDate>Mon, 17 Feb 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Deepseek R1 in 2 bullets</title>
+  <link>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-02-13-A.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Am currently reading through the research paper. From my current understanding:</p>
+<ul>
+<li>R1-Zero is pure RL, with GRPO as the policy</li>
+<li>R1 is unpure RL, with GRPO as the policy, with some SFT in the form of cold start data, and further refinement stages</li>
+</ul>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Papers</category>
+  <category>LLM</category>
+  <category>NLP</category>
+  <category>RL</category>
+  <category>Chain-of-Thought</category>
+  <guid>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-02-13-A.html</guid>
+  <pubDate>Wed, 12 Feb 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Robo-ABC: Affordance Generalization Beyond Categories via Semantic Correspondence for Robot Manipulation</title>
+  <link>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-01-28-A.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>DenseMatcher is a method for generalization the “understanding” of one object to another. The best way to understand this, is to view the following images from the paper.</p>
+<p><img src="https://toniortiz18.github.io/portfolio/bitsandbobs/images/2025-01-28-A/1.png" class="img-fluid"></p>
+<p><img src="https://toniortiz18.github.io/portfolio/bitsandbobs/images/2025-01-28-A/2.png" class="img-fluid"></p>
+<p>In other words, DenseMatcher computes 3D correspondences between objects.</p>
+<p>It works by using SD-DINO (a combination of Stable Diffusion and DINO) to extract 2D features from different angles of the 3D asset. The features from different views are averaged, providing the feature for each vertex.</p>
+<p><img src="https://toniortiz18.github.io/portfolio/bitsandbobs/images/2025-01-28-A/3.png" class="img-fluid"></p>
+<p>However, as seen in the image above, the features are noisy. Therefore, the features are then refined with DiffusionNet. This is an architecture meant for meshes.</p>
+<p><img src="https://toniortiz18.github.io/portfolio/bitsandbobs/images/2025-01-28-A/4.png" class="img-fluid"></p>
+<p>After the features have been refined, a <a href="https://cse291-i.github.io/WI18/LectureSlides/L17_Functional_Map.pdf">functional map</a> is solved to compute correspondences.</p>
+<p><img src="https://toniortiz18.github.io/portfolio/bitsandbobs/images/2025-01-28-A/5.png" class="img-fluid"></p>
+<p><a href="https://tea-lab.github.io/DenseMatcher/">Link to paper</a>. All images in this post are from the paper.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Papers</category>
+  <category>Robotics</category>
+  <category>Diffusion</category>
+  <category>Spatial Intelligence</category>
+  <guid>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-01-28-A.html</guid>
+  <pubDate>Mon, 27 Jan 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>不 vs 没</title>
+  <link>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-01-27-A.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In a nutshell.</p>
+<p>不: - Negates present and future - Negates habitual actions and adjectives</p>
+<p>没: - Negates past - Negates something that hasn’t happened</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Mandarin</category>
+  <category>Grammar</category>
+  <guid>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-01-27-A.html</guid>
+  <pubDate>Sun, 26 Jan 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces</title>
+  <link>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-01-23-A.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This paper tackles the issue that is the lack of spatial understanding and spatial reasoning that MLLM/VLMs.</p>
+<p>In this paper, the authors created a benchmark for spatial reasoning, consisting of over 5000 QnA pairs from 288 indoor videos. A variety of tasks are covered, including configurational (e.g,. object count, route planning), measurement estimation (e.g., room size), and spatiotempral reasoning (e.g., appearance order). 79% accuracy on the benchmark is needed to reach human level awareness. The authors found that their MLLM could only reach 49%.</p>
+<p>The resulting analysis from the paper shows that 71% of errors stem from spatial reasoning, rather than perception or language understanding. By generating spatial layout (cognitive maps), accuracy on distance related tasks improved by 10%. This outperforms linguistic prompting techniques such as CoT. In fact, CoT degraded performance on the benchmark.</p>
+<p>It was also found that MLLMs have strong <em>local</em> spatial awareness, but struggle with global awareness.</p>
+<p>Weaknesses in the study include reliance on 3D datasets that may contain annotation errors, video processing and langauge model evaluation being resource intensive, and the study focusing on indoor scenes and not outdoor scenes.</p>
+<p>Future directions encourage research into hybrid models that are both language and spatial memory, self-supervised objectives for spatial learning, and fine-tuning for VSI tasks.</p>
+<p><a href="https://huggingface.co/papers/2412.14171">Link to paper</a>.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Deepseek R1 Summary
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<section id="structured-summary-of-thinking-in-space-how-multimodal-large-language-models-see-remember-and-recall-spaces" class="level3 callout-body-container callout-body">
+<h3 class="anchored" data-anchor-id="structured-summary-of-thinking-in-space-how-multimodal-large-language-models-see-remember-and-recall-spaces">Structured Summary of “Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces”</h3>
+<section id="contextual-overview" class="level4">
+<h4 class="anchored" data-anchor-id="contextual-overview"><strong>Contextual Overview</strong></h4>
+<ul>
+<li><strong>Research Question</strong>: Can Multimodal Large Language Models (MLLMs) exhibit human-like visual-spatial intelligence (VSI) when reasoning about 3D spaces from videos?<br>
+</li>
+<li><strong>Objective</strong>: Develop a benchmark (VSI-Bench) to evaluate MLLMs’ ability to perceive, remember, and reason about spatial relationships in real-world indoor environments.<br>
+</li>
+<li><strong>Domain</strong>: Multimodal AI, spatial reasoning, video understanding.<br>
+</li>
+<li><strong>Motivation</strong>: Visual-spatial intelligence is critical for robotics, AR/VR, and autonomous systems, but existing MLLM benchmarks focus on 2D image/text understanding. This work addresses the gap in evaluating 3D spatial reasoning from video input.</li>
+</ul>
+<hr>
+</section>
+<section id="key-contributions" class="level4">
+<h4 class="anchored" data-anchor-id="key-contributions"><strong>Key Contributions</strong></h4>
+<ol type="1">
+<li><strong>VSI-Bench</strong>: A novel benchmark with <strong>5,000+ QA pairs</strong> derived from <strong>288 real indoor videos</strong> (from ScanNet, ScanNet++, ARKitScenes). Tasks include configurational (e.g., object count, route planning), measurement estimation (e.g., room size), and spatiotemporal reasoning (e.g., appearance order).<br>
+</li>
+<li><strong>Spatial Reasoning as Bottleneck</strong>: Analysis shows <strong>71% of errors</strong> stem from spatial reasoning (e.g., egocentric-allocentric transformations), not perception or language understanding.<br>
+</li>
+<li><strong>Cognitive Maps Enhance Performance</strong>: Explicitly generating spatial layouts (cognitive maps) improves MLLMs’ accuracy on relative distance tasks by <strong>10%</strong>, outperforming linguistic prompting techniques like Chain-of-Thought.<br>
+</li>
+<li><strong>Failure of Linguistic Reasoning</strong>: Prevailing methods (CoT, self-consistency, Tree-of-Thoughts) <strong>degraded performance</strong> on VSI-Bench, highlighting the distinct challenges of spatial reasoning.<br>
+</li>
+<li><strong>Local vs.&nbsp;Global Spatial Models</strong>: MLLMs build strong <strong>local spatial awareness</strong> (64% accuracy for adjacent objects) but struggle with global consistency.</li>
+</ol>
+<hr>
+</section>
+<section id="methodology-deep-dive" class="level4">
+<h4 class="anchored" data-anchor-id="methodology-deep-dive"><strong>Methodology Deep Dive</strong></h4>
+<ul>
+<li><strong>Data/Resources</strong>:
+<ul>
+<li>Videos from ScanNet (24 FPS), ScanNet++, ARKitScenes (30 FPS), standardized to 640×480 resolution.<br>
+</li>
+<li>QA pairs auto-generated using templates and human annotation (for route planning).<br>
+</li>
+</ul></li>
+<li><strong>Core Techniques</strong>:
+<ul>
+<li><strong>Unified Meta-Information</strong>: Structured annotations for object counts, bounding boxes, room size, and spatial relationships.<br>
+</li>
+<li><strong>Evaluation Metrics</strong>: Accuracy (for multiple-choice), Mean Relative Accuracy (for numerical answers).<br>
+</li>
+<li><strong>Cognitive Map Generation</strong>: Prompting MLLMs to output object positions on a 10×10 grid.<br>
+</li>
+</ul></li>
+<li><strong>Validation</strong>:
+<ul>
+<li><strong>15 MLLMs tested</strong>, including GPT-4o, Gemini-1.5 Pro, and open-source models (LLaVA variants).<br>
+</li>
+<li><strong>Human baseline</strong>: 79% accuracy vs.&nbsp;Gemini-1.5 Pro (45.4%).<br>
+</li>
+<li><strong>Blind evaluation</strong> confirmed video input is critical (performance drops to chance level without it).</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="strengths-and-weaknesses" class="level4">
+<h4 class="anchored" data-anchor-id="strengths-and-weaknesses"><strong>Strengths and Weaknesses</strong></h4>
+<ul>
+<li><strong>Strengths</strong>:
+<ul>
+<li><strong>Comprehensive Benchmark</strong>: High-quality, diverse tasks with iterative human review.<br>
+</li>
+<li><strong>Novel Insights</strong>: Identifies spatial reasoning as the key bottleneck and demonstrates cognitive maps’ utility.<br>
+</li>
+<li><strong>Reproducibility</strong>: Public code, metrics, and standardized evaluation protocols.<br>
+</li>
+</ul></li>
+<li><strong>Weaknesses</strong>:
+<ul>
+<li><strong>Dataset Bias</strong>: Relies on existing 3D datasets, which may inherit annotation errors.<br>
+</li>
+<li><strong>Compute Demands</strong>: Video processing and large model evaluation are resource-intensive.<br>
+</li>
+<li><strong>Limited Generalization</strong>: Focus on indoor scenes; outdoor/embodied settings unexplored.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="relevance-to-the-field" class="level4">
+<h4 class="anchored" data-anchor-id="relevance-to-the-field"><strong>Relevance to the Field</strong></h4>
+<ul>
+<li><strong>Advances</strong>: Establishes a foundation for evaluating and improving MLLMs’ spatial reasoning, crucial for embodied AI (e.g., robots, autonomous navigation).<br>
+</li>
+<li><strong>Contrast with Prior Work</strong>: Unlike image-based or text-only spatial benchmarks, VSI-Bench uses video to mirror real-world observation.<br>
+</li>
+<li><strong>Future Directions</strong>: Encourages research into hybrid models (language + spatial memory), self-supervised objectives for spatial learning, and fine-tuning for VSI tasks.</li>
+</ul>
+<hr>
+</section>
+<section id="key-takeaways" class="level4">
+<h4 class="anchored" data-anchor-id="key-takeaways"><strong>Key Takeaways</strong></h4>
+<ol type="1">
+<li><strong>MLLMs lag behind humans</strong> in visual-spatial intelligence (45% vs.&nbsp;79% accuracy) but show emerging capabilities.<br>
+</li>
+<li><strong>Spatial reasoning</strong>—not perception or language—is the primary challenge for MLLMs.<br>
+</li>
+<li><strong>Cognitive maps</strong> improve spatial reasoning, suggesting a path toward better world modeling.<br>
+</li>
+<li><strong>Linguistic prompting</strong> (CoT, etc.) fails for spatial tasks, demanding new techniques tailored to visuospatial reasoning.<br>
+</li>
+<li><strong>Local spatial awareness</strong> exists in MLLMs, but global consistency remains elusive.</li>
+</ol>
+<hr>
+<p><strong>Non-Technical Insights for Decision-Makers</strong>:<br>
+- VSI-Bench is a critical tool for developers aiming to build MLLMs for real-world navigation or AR/VR.<br>
+- Spatial reasoning enhancements (e.g., cognitive maps) could bridge the gap between MLLMs and human-like spatial understanding.<br>
+- Open-source models (e.g., LLaVA-NeXT-Video-72B) are competitive with closed-source counterparts, offering cost-effective alternatives.</p>
+<p>Let me know if you’d like to dive deeper into specific sections!</p>
+</section>
+</section>
+</div>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Robotics</category>
+  <category>Spatial Intelligence</category>
+  <category>NLP</category>
+  <category>MLLM</category>
+  <category>VLM</category>
+  <category>Papers</category>
+  <guid>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-01-23-A.html</guid>
+  <pubDate>Wed, 22 Jan 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>OmniManip: Towards General Robotic Manipulation via Object-Centric Interaction Primitives as Spatial Constraints</title>
+  <link>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-01-21-A.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>OmniManip is a hot new paper from Agibot and Peking University. It’s about zero shot natural language robotic manipulation tasks. A current issue with this task, and current approaches the utilize VLMs, is that VLMs lack 3D spatial understanding. They’re only trained on 2D images and video after all.</p>
+<p>OmniManip utilizes an ensemble of models to achieve this goal. This is how it works at a high level.</p>
+<p>A segmentation model is used to extract relevant objects from the robot’s vision. A VLM then filters out task relevant objects, and also breaks down the input task (input as text) into multiple stages.</p>
+<p>Next, for each stage of the task, interaction primitives and their spatial constraints are extracted. A single view 3D generation model is used to generate meshes for all objects relevant to the task. A pose estimation model is then used to canonicalize the objects. Interaction primitives and their corresponding constraints relevant for the task are then identified by the VLM. Along the way, a LLM is used to grade various primitives and constriants.</p>
+<p>Models hallucinate (in particular, the VLM). The world is not static. To overcome this, a closed loop system is introduced; a self correction mechanism based on resampling, rendering and checking. This method uses realtime feedback form the VLM, which is used to detect and then correct interaction errors. A pose tracking algorithm is also used to continuously update the poses of all relevant objects, allowing the robot to be dynamically adjusted.</p>
+<p><a href="https://omnimanip.github.io/">Link to paper.</a></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Robotics</category>
+  <category>NLP</category>
+  <category>MLLM</category>
+  <category>VLM</category>
+  <category>LLM</category>
+  <category>Papers</category>
+  <guid>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-01-21-A.html</guid>
+  <pubDate>Mon, 20 Jan 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>小和年轻</title>
+  <link>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-01-14-A.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>小 can indicate whether one is young or old. For example, 她有一个小孩儿. However, you have to be careful when using 年轻, as it carries the connotation of being the opposite of old. If you’re saying you’re younger than someone, and you use 年轻, it also implies that the other person is old. 小 does not carry this connotation.</p>
+<p><a href="https://resources.allsetlearning.com/chinese/vocabulary/Comparing_%22shao%22_and_%22xiao%22#To_express_.22young.22_as_an_adjective_use_.E5.B0.8F">From the Chinese Grammar Wiki (including the example sentence).</a>.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Mandarin</category>
+  <guid>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-01-14-A.html</guid>
+  <pubDate>Mon, 13 Jan 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>没几个</title>
+  <link>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-01-02-A.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>没几个 is a way of saying a “very few” of something, rather than “not few”.</p>
+<p>我认识的人很多，但没几个好朋友。</p>
+<p>From the <a href="https://immersivechinese.com/">Immersive Chinese App</a>.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Mandarin</category>
+  <guid>https://toniortiz18.github.io/portfolio/bitsandbobs/posts/2025-01-02-A.html</guid>
+  <pubDate>Wed, 01 Jan 2025 23:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
