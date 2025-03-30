@@ -1,7 +1,7 @@
 ---
 title: '{{< animate bounceIn "Antonio Ortiz Romero" delay=1s duration=faster >}}'  
 # Se muestra el título con animación "bounceIn", que en este caso es el nombre "Antonio Ortiz Romero".
-subtitle: 'Applied Mathematician in Geothermal Research & AI Applications'  
+subtitle: 'HOLAApplied Mathematician in Geothermal Research & AI Applications'  
 # Se añade el subtítulo o descripción debajo del título (si la plantilla lo admite).
 comments: False  
 # Desactiva los comentarios en la página.
