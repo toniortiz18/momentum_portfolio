@@ -1,70 +1,48 @@
 ---
-title: '{{< animate bounceIn "Welcome to the world of ForBo7" delay=1s duration=faster >}}'
-comments: False
+title: '{{< animate bounceIn "Antonio Ortiz Romero" delay=1s duration=faster >}}'  
+# Se muestra el título con animación "bounceIn", que en este caso es el nombre "Antonio Ortiz Romero".
+subtitle: 'Applied Mathematician in Geothermal Research & AI Applications'  
+# Se añade el subtítulo o descripción debajo del título (si la plantilla lo admite).
+comments: False  
+# Desactiva los comentarios en la página.
 format:
   html:
-    page-layout: full
-listing:
-  - id: landing-posts
-    contents: forblog/posts
-    type: default
-    max-items: 3
-    sort: 
-      - "date desc"
-      - "title asc"
-  - id: landing-bits
-    contents: bitsandbobs/posts
-    type: table
-    max-items: 6
-    table-striped: true
-    sort: 
-      - "date desc"
-      - "title asc"
-    fields: [title, description, date]
+    page-layout: full  
+    # Configura el diseño de la página a pantalla completa.
 about:
-  id: about-forbo7
-  template: jolla
-  image: images/profile.jpg
-  image-shape: round
+  id: about-forbo7  
+  # Identificador para la sección "Acerca de mí".
+  template: jolla  
+  # Plantilla utilizada para renderizar la sección "about".
+  image: images/profile.jpg  
+  # Ruta de la imagen de perfil.
+  image-shape: round  
+  # Estilo de la imagen (en este caso, forma redondeada).
   links:
-      # Variables don't work here.
-    - icon: file-post-fill
-      text: "{{< animate fadeIn 'fastai Forums' >}}"
-      href: https://forums.fast.ai/u/forbo7/summary
-    - icon: twitter
-      text: "{{< animate fadeIn 'Twitter' >}}"
-      href: https://twitter.com/ForBo7_
-    - icon: brush
-      text: "{{< animate fadeIn 'Artstation' >}}"
-      href: https://www.artstation.com/forbo7
-    - icon: envelope
-      text: "{{< animate fadeIn 'Email' >}}"
-      href: mailto:salmanaqvi+forblog@icloud.com
-back-to-top-navigation: false
+    - icon: file-post-fill  
+      # Ícono que se muestra junto al enlace.
+      text: "{{< animate fadeIn 'fastai Forums' >}}"  
+      # Texto del enlace con animación fadeIn.
+      href: https://forums.fast.ai/u/forbo7/summary  
+      # URL a la que dirige este enlace.
+    - icon: twitter  
+      # Ícono de Twitter.
+      text: "{{< animate fadeIn 'Twitter' >}}"  
+      # Texto del enlace para Twitter con animación.
+      href: https://twitter.com/ForBo7_  
+      # URL del perfil de Twitter.
+    - icon: brush  
+      # Ícono para Artstation.
+      text: "{{< animate fadeIn 'Artstation' >}}"  
+      # Texto del enlace para Artstation con animación.
+      href: https://www.artstation.com/forbo7  
+      # URL del perfil en Artstation.
+    - icon: envelope  
+      # Ícono para Email.
+      text: "{{< animate fadeIn 'Email' >}}"  
+      # Texto del enlace para Email con animación.
+      href: mailto:antonio.ortiz@idaea.csic.es  
+      # Enlace mailto para enviar un correo electrónico.
+back-to-top-navigation: false  
+# Desactiva el botón de "volver al inicio" en la navegación.
 ---
-
-:::{#about-forbo7 .animate__animated .animate__zoomInDown}
-
-* Onward and upward, with tenacity and sincerity. 
-* Read more about me [here](about.qmd).
-* And feel free to contact me with one of the fancy buttons below!
-
-:::
-
-:::::{.grid}
-::::{.g-col-12 .g-col-md-6 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
-## Bits and Bobs
-Click [here](bitsandbobs/index.qmd) to explore more bits and bobs.
-
-:::{#landing-bits}
-:::
-::::
-
-::::{.g-col-12 .g-col-md-6 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
-## ForBlog
-Click [here](forblog/index.qmd) to check out the latest on the ForBlog.
-
-:::{#landing-posts}
-:::
-::::
-:::::

@@ -1,9 +1,9 @@
 # TODO: Add date format.
 # TODO: Separate this file into further yaml files?
 website:
-  title: "ForBo7 // Salman Naqvi"
+  title: "Antonio O.R."
   site-url: https://forbo7.github.io/
-  description: "The world of ForBo7!"
+  description: "Antonio Ortiz Romero"
   favicon: favicon.ico
 #  favicon: cover.png
   image: images/profile.png
@@ -17,7 +17,7 @@ website:
         text: Home
         href: index.qmd
       - icon: newspaper
-        text: ForBlog
+        text: Projects
         href: forblog/index.qmd
       - icon: puzzle
         text: Bits and Bobs
