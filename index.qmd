@@ -9,6 +9,7 @@ format:
   html:
     page-layout: full  
     # Configura el diseño de la página a pantalla completa.
+    theme: flatly 
 about:
   id: about-forbo7  
   # Identificador para la sección "Acerca de mí".
