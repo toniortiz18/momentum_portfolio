@@ -1,146 +1,101 @@
 ---
-title: "{{< animate fadeIn 'Salman Naqvi' duration=faster >}}"
+title: "Antonio Ortiz Romero"
+format:
+  html:
+    theme: flatly
 about:
-  id: about-forbo7
+  id: about-toniortiz18
   template: trestles
-  image: images/profile_1.jpg
+  image: images/profile.jpeg
   image-shape: rounded
   links:
-    - icon: file-post-fill
-      text: "{{< animate fadeIn 'fastai Forums' >}}"
-      href: https://forums.fast.ai/u/forbo7/summary
-    - icon: twitter
-      text: "{{< animate fadeIn 'Twitter' >}}"
-      href: https://twitter.com/ForBo7_
-    - icon: brush
-      text: "{{< animate fadeIn 'Artstation' >}}"
-      href: https://www.artstation.com/forbo7
-    - icon: envelope
-      text: "{{< animate fadeIn 'Email' >}}"
-      href: mailto:salmanaqvi+forblog@icloud.com
+    - icon: linkedin  
+      # Ícono que se muestra junto al enlace.
+      text: "{{< animate fadeIn 'LinkedIn' >}}"  
+      # Texto del enlace con animación fadeIn.
+      href: https://www.linkedin.com/in/antonio-ortiz-romero-603485268/
+      # URL a la que dirige este enlace.
+    - icon: envelope  
+      # Ícono para Email.
+      text: "{{< animate fadeIn 'Email' >}}"  
+      # Texto del enlace para Email con animación.
+      href: mailto:antonio.ortiz@idaea.csic.es  
+      # Enlace mailto para enviar un correo electrónico.
 comments: false
 page-layout: full
 ---
 
 :::{.animate__animated .animate__slideInRight .animate__faster}
-*A curious soul navigating the realms of AI, exploring the intricacies of 3D computer graphics, fueled by an insatiable passion for learning. A devoted aficionado of science and technology, proudly wearing the badge of a “sci-tech geek”. In addition to unraveling the complexities of the digital world, I've ventured into real-world adventures across 15 countries so far, adding layers of cultural richness to my journey.*
+*I am a mathematics graduate currently employed under the Momentum program at CSIC. My work focuses on developing AI-based tools for the real-time management and optimization of deep geothermal resources. Previously, I completed a 9-month internship at DXC Technology, where I gained experience in data engineering by implementing an ETL pipeline and integrating OpenAI's API.*
 :::
 
 ::::{.animate__animated .animate__slideInUp .animate__faster}
 :::{.panel-tabset}
 
-# Notable Experience and Honors
+# Research Experience
 
-*Feb. 21st 2025* – [**Meet Salman Naqvi: the bright spark in AI and EdTech**](https://flassnews.eduhk.hk/preview_article/WINTER_2024_ISSUE_11/Meet%20Salman%20Naqvi%20the%20bright%20spark%20in%20AI%20and%20EdTech) | See what the university's written about me!
+**Titulado Superior FC- Momentum Program | December 2024 - Present** *(Contract until 2028)*
 
-*Dec. 27, 2024* – [**Featured among "The EdUHK Rising Stars"**](https://www.youtube.com/watch?v=JrM6hwABAQ4) | See the university's mini documentary on me!
+Institute of Environmental Assessment and Water Research- IDAEA
 
-*Jun. 12, 2024* – **Study Award from Hong Kong SAR Government** | Hong Kong SAR Government Scholarship Fund Reaching Out Award
-
-*Dec. 7, 2023* — **Invited Speaker at the Advanced Study Institute (ASI) Online Symposium** | The Education University of Hong Kong and Hong Kong Baptist University
-
-*Apr. 2023 – Nov. 2023* — **Co-lead Online Study Group** | fast.ai Course Part 2: From Deep Learning Foundations to Stable Diffusion | Discord
-
-*Mar. 17, 2023* — **Study Scholarship Offer from Kyoto University of Advanced Sciences, Kyoto, Japan** | KUAS-E Scholarship
-
-*Feb. 24, 2023* — **Study Scholarship Offer from The Eduation University of Hong Kong, Hong Kong SAR, China** | EdUHK Full Entrance Scholarship
-
-*Sep. 2022 – Mar. 2023* — **Completed fast.ai Course Part 1: Practical Deep Learning for Coders**
-
-*Jan. 17, 2023* — **Placed in Top 12% of Contestants in Data Science Competition** | Playground Series Season 3, EP2 | Tabular Classification with a Stroke Prediction Dataset | Kaggle
-
-*Sep. 2020 – May 2021* — **Physics Teaching Assistant** | Beaconhouse College Program Potohar Campus, Islamabad, Pakistan
-
-*Sep. 2020 – May 2021* — **Mathematics Teaching Assistant** | Beaconhouse College Program Potohar Campus, Islamabad, Pakistan
-
-*Jan. 2020* —  **Concert Marketing – Raised $8,400** |Beaconhouse College Program Potohar Campus, Islamabad, Pakistan
-
-*Aug. 2019* — **Received 100% Scholarship for A-Level Program** | Beaconhouse College Program Potohar Campus, Islamabad, Pakistan
-
-*2018* — **Bronze Medal – Honorable Distinction Award** | 15th International Kangaroo Linguistic Contest, Islamabad, Pakistan
-
-# Internships and Part-time
-**Research Assistant** | Oct. 2024 – Current
-
-Multimodal Intelligence Laboratory, The Education University of Hong Kong
-
-* Embodied AI
-* Natural language robot manipulation
-* Under [Dr. Fu Hong](https://repository.eduhk.hk/en/persons/hong%E5%82%85%E5%BC%98-fu)
-
-**AI Engineer** | Jul. 2024 – Aug.2024
-
-Keweya Education Technology Limited – HKSTP Incubatee
-
-* Review and analysis of research papers
-* Study of diffusion models, and app development
-
-**LLM Researcher** | Jun. 2024 – Jul. 2024
-
-READily Limited – HKSTP Incubatee
-
-* Research paper review and implementation
-* Training and finetuning large language models
-
-**Training Coordinator** | Mar. 2024
-
-Kids4Kids Hong Kong
-
-* Volunteer work
-* Workshop planning and video editing
-
-# Skills
-
-**Programming**
-
-Python, PyTorch, Hugging Face (transformers, diffusers, datasets, tokenizers, peft, accelerate, etc), fastai, Pandas, NumPy, Scikit-Learn, Gradio, Quarto, Jupyter, nbdev
-
-**3D Computer Graphics**
-
-Blender
-
-**Teaching**
-
-I know how to succinctly convey concepts in an engaging manner that makes sense. I don’t read a speech from PPT slides.
-
-**Artificial Intelligence (fast.ai)**
-
-Self-learning since April 2022.
+* Developing physics-informed deep learning algorithms for the management and optimization of deep geothermal resources.
+* Part of the Porous Media Multiscale Modeling Laboratory (PM3Lab) at IDAEA.
+* Combining AI and physics-based modeling to improve real-time decision-making in geothermal systems.
+* Planning to complete a Master’s in Artificial Intelligence as a foundation for a future PhD in the field.
 
 # Languages
 
-**English:** Native level fluency
+**English:** B2 level (CEFR) - Professional working proficiency
 
-**Urdu:** Fluent
+**Spanish:** Native
 
-**Mandarin:** Basic proficiency
 
-:::
-
-:::{.panel-tabset}
 
 # Education
 
-**Currently studying BSc (Honors) in Artificial Intelligence and Educational Technology at The Education University of Hong Kong.**
+**Bachelor in Mathematics** | University of Alicante — *Sep 2019 – July 2024*
 
-High School | CAIE A-Level — *Sep 2019 – Aug. 2021*
+- **Bachelor's Thesis:** Detection of Automatic Translation through Distributional Properties of Text
+    *  Developed binary classifier for machine translation detection
+    *  Implemented word frequency distribution features
+    *  Conducted domain/length impact analysis
 
-Middle School | CAIE IGCSE — *Aug 2015 – Aug. 2019*
+# Internships
+**AI Developer Intern** | July 2024 - August 2024
 
-Middle School | IB Middle Years Program — *Aug. 2013 – Jun. 2015*
+DXC Technology Company
 
-Primary School | IB Primary Years Program — *Aug. 2009 – Jun. 2013*
+* Developed an NLP model using the OpenAI API to assess clarity in formal documents
+* Focused on text analysis and natural language processing to improve document readability
+* Applied AI techniques to enhance compliance and accessibility in legal and business documents
+* Gained practical experience in AI development through an internship contract
 
-# Miscellaneous
+**Data Engineer Intern** | November 2023 - June 2024
 
-EdUHK International Student Ambassador — *Sep 2023 – Current*
+DXC Technology Company
 
-EdUHK Year 1 GPA — 3.74/4.00
+* Designed and developed an ETL system using T-SQL and PySpark in Microsoft Fabric
+* Transformed Excel files containing business opportunities into a dimensional database
+* Built interactive Power BI reports, improving data quality and facilitating decision-making
+* Gained hands-on experience in data engineering through an internship contract
 
-IELTS — 8.5/9.0
 
-:::
-::::
+# Technical Skills
+
+**Languages**
+
+Python (Advanced), SQL, LaTeX, Quarto
+
+**Tools**
+
+PySpark, NumPy, Jupyter, Scikit-Learn, PyTorch, Pandas, Power BI, OpenAI API
+
+**Methodologies**
+
+ETL, NLP, Deep Learning
+
+
+
 
 <br></br>
 <br></br>

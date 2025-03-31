@@ -1,49 +1,76 @@
 ---
-title: '{{< animate bounceIn "Antonio Ortiz Romero" delay=1s duration=faster >}}'  
-# Se muestra el título con animación "bounceIn", que en este caso es el nombre "Antonio Ortiz Romero".
-subtitle: 'HOLAApplied Mathematician in Geothermal Research & AI Applications'  
-# Se añade el subtítulo o descripción debajo del título (si la plantilla lo admite).
-comments: False  
-# Desactiva los comentarios en la página.
+title: '{{< animate fadeIn "Antonio Ortiz Romero" >}}'
+subtitle: 'AI for Sustainable Energy | Physics-Informed ML'
+comments: false
 format:
   html:
-    page-layout: full  
-    # Configura el diseño de la página a pantalla completa.
-    theme: flatly 
+    page-layout: full
+    theme: flatly
+    css: |
+      .bio-container {
+        background: #f8fafc;
+        border-left: 4px solid #18bc9c;
+        padding: 2rem;
+        margin: 2rem 0;
+        border-radius: 0 8px 8px 0;
+      }
+      .tech-pill {
+        display: inline-flex;
+        align-items: center;
+        background: #e3f0eb;
+        color: #2c3e50;
+        padding: 0.3rem 0.8rem;
+        margin: 0.5rem;  /* Margen uniforme en todos lados */
+        border-radius: 1rem;
+        font-size: 0.85em;
+        font-family: 'Fira Code', monospace;
+        gap: 0.5rem;     /* Espacio entre icono y texto */
+      }
+      .tech-grid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 2rem 0;  /* Más espacio vertical */
+        gap: 1rem;       /* Espacio entre elementos */
+      }
 about:
-  id: about-forbo7  
-  # Identificador para la sección "Acerca de mí".
-  template: jolla  
-  # Plantilla utilizada para renderizar la sección "about".
-  image: images/profile.jpg  
-  # Ruta de la imagen de perfil.
-  image-shape: round  
-  # Estilo de la imagen (en este caso, forma redondeada).
+  id: about-antonio
+  template: jolla
+  image: images/profile.jpeg
+  image-shape: rounded
   links:
-    - icon: file-post-fill  
-      # Ícono que se muestra junto al enlace.
-      text: "{{< animate fadeIn 'fastai Forums' >}}"  
-      # Texto del enlace con animación fadeIn.
-      href: https://forums.fast.ai/u/forbo7/summary  
-      # URL a la que dirige este enlace.
-    - icon: twitter  
-      # Ícono de Twitter.
-      text: "{{< animate fadeIn 'Twitter' >}}"  
-      # Texto del enlace para Twitter con animación.
-      href: https://twitter.com/ForBo7_  
-      # URL del perfil de Twitter.
-    - icon: brush  
-      # Ícono para Artstation.
-      text: "{{< animate fadeIn 'Artstation' >}}"  
-      # Texto del enlace para Artstation con animación.
-      href: https://www.artstation.com/forbo7  
-      # URL del perfil en Artstation.
-    - icon: envelope  
-      # Ícono para Email.
-      text: "{{< animate fadeIn 'Email' >}}"  
-      # Texto del enlace para Email con animación.
-      href: mailto:antonio.ortiz@idaea.csic.es  
-      # Enlace mailto para enviar un correo electrónico.
-back-to-top-navigation: false  
-# Desactiva el botón de "volver al inicio" en la navegación.
+    - icon: linkedin
+      text: "LinkedIn"
+      href: https://www.linkedin.com/in/antonio-ortiz-romero-603485268/
+    - icon: envelope
+      text: "Contact"
+      href: mailto:antonio.ortiz@idaea.csic.es
 ---
+
+::: {.bio-container}
+
+**AI Researcher** applying physics-informed neural networks to geothermal energy optimization at IDAEA-CSIC. Combines mathematical modeling with practical AI experience from ETL systems and NLP tool development.
+
+Currently expanding into scientific machine learning, with a vision to drive renewable energy innovation through computational methods.
+
+::: {.tech-grid}
+  <span class="tech-pill">
+    <img src="images/SciML.png" alt="SciML" style="height:1em; width:auto;">
+    SciML
+  </span>
+  <span class="tech-pill">
+      --
+  </span>
+  <span class="tech-pill">
+    <img src="images/NN.png" alt="PINNs" style="height:1em; width:auto;">
+    PINNs
+  </span>
+  <span class="tech-pill">
+      --
+  </span>
+  <span class="tech-pill">
+    <img src="images/PyTorch.png" alt="PyTorch" style="height:1em; width:auto;">
+    PyTorch
+  </span>
+:::
+:::

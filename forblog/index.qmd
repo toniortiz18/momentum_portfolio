@@ -1,5 +1,5 @@
 ---
-title: '{{< animate fadeInDown "Antonio Ortiz Romero" >}}'
+title: 'Posts'
 comments: false
 toc: false
 listing:

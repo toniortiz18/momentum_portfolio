@@ -15,7 +15,7 @@
 <link>https://toniortiz18.github.io/portfolio/forblog/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Mon, 31 Mar 2025 12:09:28 GMT</lastBuildDate>
+<lastBuildDate>Mon, 31 Mar 2025 17:07:40 GMT</lastBuildDate>
 <item>
   <title>Introduction to Deep Neural Networks: Mathematical Foundations and Architectures</title>
   <dc:creator>Antonio O.R.</dc:creator>
@@ -39,7 +39,6 @@
 <li>Pass the three results through an activation function a[•]</li>
 <li>Weight the three resulting activations with <img src="https://latex.codecogs.com/png.latex?%5Ctheta_1"> , <img src="https://latex.codecogs.com/png.latex?%5Ctheta_2"> , and <img src="https://latex.codecogs.com/png.latex?%5Ctheta_3"> , sum them, and add an offset <img src="https://latex.codecogs.com/png.latex?%5Ctheta_0">.</li>
 </ol>
-<p>See https://udlbook.github.io/udlfigures/.</p>
 <p>To complete the description, we must define the activation function a[•]. There are many possibilities, but the hyperbolic tangent function is commonly used as an activation function in Physics-Informed Neural Networks (PINNs) due to its smooth and differentiable nature.</p>
 <p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign*%7D%0Aa%5Bz%5D%20&amp;=%20%5Ctanh%5Bz%5D%20=%0A%5Cbegin%7Bcases%7D%0A-1%20&amp;%20z%20%5Cll%200%20%5C%5C%0Az%20&amp;%20%7Cz%7C%20%5Capprox%200%20%5C%5C%0A1%20&amp;%20z%20%5Cgg%200%0A%5Cend%7Bcases%7D%0A%5Cend%7Balign*%7D"></p>
 <p>Some advantages of using <img src="https://latex.codecogs.com/png.latex?%5Ctanh"> in PINNs include:</p>
@@ -252,7 +251,7 @@ Metacognitive Insight
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <guid>https://toniortiz18.github.io/portfolio/forblog/posts/</guid>
-  <pubDate>Mon, 31 Mar 2025 12:09:28 GMT</pubDate>
+  <pubDate>Mon, 31 Mar 2025 17:07:40 GMT</pubDate>
 </item>
 </channel>
 </rss>

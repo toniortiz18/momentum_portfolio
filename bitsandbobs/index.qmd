@@ -1,42 +1,28 @@
 ---
-title: '{{< animate bounceInDown "These are bits and bobs." duration-faster >}}'
-comments: false
-margin-header: "[ForBlog](https://forbo7.github.io/forblog/) © 2025–∞ by [Salman Naqvi](https://forbo7.github.io/about.html) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1)"
-listing:
-  - id: posts
-    type: table
-    contents: posts
-    sort: 
-      - "date desc"
-      - "title asc"
-    categories: cloud
-    # if any bugs, it's categories
-    sort-ui: [title, date, categories]
-    filter-ui: [title, date, categories]
-    feed: true
-    page-size: 14
-    date-format: "DD MMMM YYYY"
-    fields: [title, description, date]
+title: "Academic Works"
 format:
   html:
-    page-layout: full
-website:
-  back-to-top-navigation: true
-open-graph:
-  description: "Bits and bobs I learned along the way. Maybe you'll find them useful too."
-twitter-card:
-  description: "Bits and bobs I learned along the way. Maybe you'll find them useful too."
+    theme: flatly
 ---
 
-{{< animate bounceInDown "Bits and bobs I learned along the way. Maybe you'll find them useful too." duration-faster >}}
+::: {.panel-tabset}
 
-::::{.animate__animated .animate__bounceInUp .animate__duration-faster}
+## 2024
+::: {.callout-collapsible collapse="true"}
 
-:::{#posts}
+### <i class="fas fa-graduation-cap"></i> Bachelor's Thesis  
+#### *Detection of Machine Translation Through Distributional Text Properties*  
+**University of Alicante** · 2024 · [PDF available upon request]  
+
+**Abstract:**  
+This work develops automated methods to distinguish between human and machine-translated texts by analyzing linguistic patterns. The key components include:
+
+- Analysis of Beam Search algorithm limitations in machine translation  
+- Feature engineering using lexical diversity metrics and TF-IDF statistics  
+- Comparative evaluation of logistic regression vs. tree-based models (CART, Random Forest)  
+- Cross-domain testing with parallel corpora of varying lengths and topics  
+
+**Key Finding:** Logistic regression using TF-IDF features achieved superior performance in detecting machine-translated content, particularly when trained on diverse text lengths and domains.
 :::
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetO4I9TtneTiZXNidTYHcAyqrVUeZzKAq00it7RbHMBGJ53g/viewform?embedded=true" width="100%" height="600vh" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-<br></br>
-
-::::
+:::

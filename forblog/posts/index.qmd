@@ -1,6 +1,7 @@
 ---
 title: "Introduction to Deep Neural Networks: Mathematical Foundations and Architectures"
 author: "Antonio O.R."
+description: "Mathematical foundations of deep learning with focus on Physics-Informed Neural Networks"
 format:
   html:
     theme: flatly
@@ -9,6 +10,7 @@ format:
     code-fold: true
     code-tools: true
     highlight-style: github
+    
 execute:
   echo: true
   warning: false
@@ -41,7 +43,6 @@ We can break down this calculation into three parts:
 2.   Pass the three results through an activation function a[•]
 3. Weight the three resulting activations with $\theta_1$ , $\theta_2$ , and $\theta_3$ , sum them, and add an offset $\theta_0$.
 
-See https://udlbook.github.io/udlfigures/.
 
 To complete the description, we must define the activation function a[•]. There are many possibilities, but the hyperbolic tangent function is commonly used as an activation function in Physics-Informed Neural Networks (PINNs) due to its smooth and differentiable nature.
 
